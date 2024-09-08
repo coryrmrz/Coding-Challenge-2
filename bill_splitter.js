@@ -21,10 +21,10 @@ console.log(`The bill was $${testBill}, the tip was $${testTip}`); // Testing th
 
 let bills1 = [275, 40, 430]; //Data Set 1 Array
 const tips1 = bills1.map(bill => calculateTip(bill)); //Data Set 1 Tips array
-const totals1 = bills1.map((bill,index) => bills1 + tips1[index]); // Data Set 1 Totals array
+const totals1 = bills1.map((bill,index) => bill + tips1[index]); // Data Set 1 Totals array
 console.log(`The total values are $${totals1}`); // Data Set 1 total value display
 
 let bills2 = [125, 555,44]; //Data Set 2 Array
 const tips2 = bills2.map(bill => calculateTip(bill)); //Data Set 2 Tips array
-const totals2 = bills2.map((bill, index) => bills2 + tips2[index]); // Data Set 2 Totals array
+const totals2 = bills2.map((bill, index) => bill + tips2[index]); // Data Set 2 Totals array
 console.log(`The total values are $${totals2}`); // Data Set 2 total value display
